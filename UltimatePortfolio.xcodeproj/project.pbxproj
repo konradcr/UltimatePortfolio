@@ -24,6 +24,7 @@
 		7181563626F4EB040022AE75 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 7181563526F4EB040022AE75 /* Awards.json */; };
 		7181563826F4EB750022AE75 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181563726F4EB750022AE75 /* Award.swift */; };
 		7181563A26F4EC350022AE75 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181563926F4EC350022AE75 /* AwardsView.swift */; };
+		7181563C26F4F5690022AE75 /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181563B26F4F5690022AE75 /* Color-Additions.swift */; };
 		71BDD00426F0F09E002CD846 /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDD00326F0F09E002CD846 /* UltimatePortfolioApp.swift */; };
 		71BDD00626F0F09E002CD846 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDD00526F0F09E002CD846 /* ContentView.swift */; };
 		71BDD00826F0F0A0002CD846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BDD00726F0F0A0002CD846 /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 		7181563526F4EB040022AE75 /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Awards.json; sourceTree = "<group>"; };
 		7181563726F4EB750022AE75 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		7181563926F4EC350022AE75 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		7181563B26F4F5690022AE75 /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
 		71BDD00026F0F09E002CD846 /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BDD00326F0F09E002CD846 /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		71BDD00526F0F09E002CD846 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				7181562726F391B80022AE75 /* Binding-OnChange.swift */,
 				7181562F26F4BFF00022AE75 /* Sequence-Sorting.swift */,
 				7181563326F4E8910022AE75 /* Bundle-Decodable.swift */,
+				7181563B26F4F5690022AE75 /* Color-Additions.swift */,
 				7181563526F4EB040022AE75 /* Awards.json */,
 				7181563726F4EB750022AE75 /* Award.swift */,
 				71BDD00526F0F09E002CD846 /* ContentView.swift */,
@@ -213,6 +216,7 @@
 				7181563A26F4EC350022AE75 /* AwardsView.swift in Sources */,
 				71BDD01426F0F230002CD846 /* Main.xcdatamodeld in Sources */,
 				7181562226F257EA0022AE75 /* Project-CoreDataHelpers.swift in Sources */,
+				7181563C26F4F5690022AE75 /* Color-Additions.swift in Sources */,
 				7181562E26F39DCC0022AE75 /* EditProjectView.swift in Sources */,
 				71BDD01626F0F9A2002CD846 /* DataController.swift in Sources */,
 				7181563226F4E2170022AE75 /* SelectSomethingView.swift in Sources */,
