@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Premiers Pas",
+        "description": "Ajoute ta première tâche.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 1,
+        "image": "figure.walk"
+    },
+    {
+        "name": "Un Bon Début",
+        "description": "Ajoute 10 tâches.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 10,
+        "image": "hand.thumbsup.fill"
+    },
+    {
+        "name": "Aller de l'Avant",
+        "description": "Ajoute 20 tâches.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 20,
+        "image": "tray.and.arrow.up.fill"
+    },
+    {
+        "name": "À Toute Vitesse",
+        "description": "Ajoute 50 tâches.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 50,
+        "image": "speedometer"
+    },
+    {
+        "name": "Faire des Vagues",
+        "description": "Ajoute 100 tâches.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 100,
+        "image": "dot.radiowaves.left.and.right"
+    },
+    {
+        "name": "Haute Performance",
+        "description": "Ajoute 250 tâches.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 250,
+        "image": "square.stack.3d.up.fill"
+    },
+    {
+        "name": "Star Vedette",
+        "description": "Ajoute 500 tâches.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 500,
+        "image": "star.circle.fill"
+    },
+    {
+        "name": "Champion",
+        "description": "Ajoute 1000 tâches.",
+        "color": "Light Blue",
+        "criterion": "items",
+        "value": 1000,
+        "image": "crown.fill"
+    },
+    {
+        "name": "Cocher des Cases",
+        "description": "Complète ta première tâche.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 1,
+        "image": "checkmark.shield.fill"
+    },
+    {
+        "name": "Tu assures !",
+        "description": "Complète 10 tâches.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 10,
+        "image": "guitars.fill"
+    },
+    {
+        "name": "20 c'est Beaucoup",
+        "description": "Complète 20 tâches.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 20,
+        "image": "20.square.fill"
+    },
+    {
+        "name": "Oeil de Lynx !",
+        "description": "Complète 50 tâches.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 50,
+        "image": "target"
+    },
+    {
+        "name": "Haut Vol",
+        "description": "Complète 100 tâches.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 100,
+        "image": "airplane.circle.fill"
+    },
+    {
+        "name": "Tu es en feu !",
+        "description": "Complète 250 tâches.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 250,
+        "image": "flame.fill"
+    },
+    {
+        "name": "Cocheur de cases en Chef",
+        "description": "Complète 500 tâches.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 500,
+        "image": "text.badge.checkmark"
+    },
+    {
+        "name": "Boom !",
+        "description": "Complète 1000 tâches.",
+        "color": "Orange",
+        "criterion": "complete",
+        "value": 1000,
+        "image": "bolt.circle.fill"
+    },
+    {
+        "name": "Premier Message",
+        "description": "Tu as posté ton premier message sur la discussion de groupe.",
+        "color": "Purple",
+        "criterion": "chat",
+        "value": 1,
+        "image": "person.fill"
+    },
+    {
+        "name": "Messagé fréquent",
+        "description": "Tu as posté 10 messages sur la discussion de groupe.",
+        "color": "Purple",
+        "criterion": "chat",
+        "value": 10,
+        "image": "message.fill"
+    },
+    {
+        "name": "Hyper Sociable",
+        "description": "Tu as posté 100 messages sur la discussion de groupe.",
+        "color": "Purple",
+        "criterion": "chat",
+        "value": 100,
+        "image": "arrow.up.heart.fill"
+    },
+    {
+        "name": "Supporter",
+        "description": "Tu as acheté le déverrouillage Prenium.",
+        "color": "Green",
+        "criterion": "unlock",
+        "value": 0,
+        "image": "dollarsign.square.fill"
+    }
+]
