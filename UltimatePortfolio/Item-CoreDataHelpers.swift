@@ -11,7 +11,7 @@ extension Item {
     enum SortOrder {
         case optimized, title, creationDate
     }
-    
+
     var itemTitle: String {
         title ?? NSLocalizedString("New Item", comment: "Create a new item")
     }
@@ -23,7 +23,7 @@ extension Item {
     var itemCreationDate: Date {
         creationDate ?? Date()
     }
-    
+
     static var example: Item {
         let controller = DataController(inMemory: true)
         let viewContext = controller.container.viewContext
@@ -36,5 +36,3 @@ extension Item {
         return item
     }
 }
-
-
