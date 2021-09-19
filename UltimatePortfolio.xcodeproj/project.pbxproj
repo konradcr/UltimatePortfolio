@@ -27,6 +27,8 @@
 		7181564426F655B50022AE75 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7181564626F655B50022AE75 /* Localizable.strings */; };
 		7181564A26F657020022AE75 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 7181564C26F657020022AE75 /* Localizable.stringsdict */; };
 		7181564E26F6584E0022AE75 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 7181565026F6584E0022AE75 /* Awards.json */; };
+		7181565626F775590022AE75 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181565526F775590022AE75 /* ItemListView.swift */; };
+		7181565826F776860022AE75 /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181565726F776860022AE75 /* ProjectSummaryView.swift */; };
 		71BDD00426F0F09E002CD846 /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDD00326F0F09E002CD846 /* UltimatePortfolioApp.swift */; };
 		71BDD00626F0F09E002CD846 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDD00526F0F09E002CD846 /* ContentView.swift */; };
 		71BDD00826F0F0A0002CD846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BDD00726F0F0A0002CD846 /* Assets.xcassets */; };
@@ -63,6 +65,8 @@
 		7181565226F658C20022AE75 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7181565326F658C20022AE75 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = fr; path = fr.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		7181565426F658C20022AE75 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = fr; path = fr.lproj/Awards.json; sourceTree = "<group>"; };
+		7181565526F775590022AE75 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		7181565726F776860022AE75 /* ProjectSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSummaryView.swift; sourceTree = "<group>"; };
 		71BDD00026F0F09E002CD846 /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BDD00326F0F09E002CD846 /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		71BDD00526F0F09E002CD846 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 				7181564C26F657020022AE75 /* Localizable.stringsdict */,
 				71BDD00526F0F09E002CD846 /* ContentView.swift */,
 				7181561B26F23CCB0022AE75 /* HomeView.swift */,
+				7181565726F776860022AE75 /* ProjectSummaryView.swift */,
+				7181565526F775590022AE75 /* ItemListView.swift */,
 				7181561D26F23D7C0022AE75 /* ProjectsView.swift */,
 				7181563126F4E2170022AE75 /* SelectSomethingView.swift */,
 				7181562D26F39DCC0022AE75 /* EditProjectView.swift */,
@@ -228,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7181561E26F23D7C0022AE75 /* ProjectsView.swift in Sources */,
+				7181565826F776860022AE75 /* ProjectSummaryView.swift in Sources */,
 				7181562A26F398840022AE75 /* ProjectHeaderView.swift in Sources */,
 				7181563A26F4EC350022AE75 /* AwardsView.swift in Sources */,
 				71BDD01426F0F230002CD846 /* Main.xcdatamodeld in Sources */,
@@ -242,6 +249,7 @@
 				7181562826F391B80022AE75 /* Binding-OnChange.swift in Sources */,
 				7181563026F4BFF00022AE75 /* Sequence-Sorting.swift in Sources */,
 				7181563426F4E8910022AE75 /* Bundle-Decodable.swift in Sources */,
+				7181565626F775590022AE75 /* ItemListView.swift in Sources */,
 				7181561C26F23CCB0022AE75 /* HomeView.swift in Sources */,
 				71BDD00426F0F09E002CD846 /* UltimatePortfolioApp.swift in Sources */,
 				7181562026F257280022AE75 /* Item-CoreDataHelpers.swift in Sources */,
