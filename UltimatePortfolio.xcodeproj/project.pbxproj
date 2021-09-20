@@ -31,6 +31,8 @@
 		7181565826F776860022AE75 /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181565726F776860022AE75 /* ProjectSummaryView.swift */; };
 		7181566B26F8EE730022AE75 /* UltimatePortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181566A26F8EE730022AE75 /* UltimatePortfolioTests.swift */; };
 		7181567326F8F0B50022AE75 /* AssetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181567226F8F0B50022AE75 /* AssetTests.swift */; };
+		7181567526F8F4170022AE75 /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181567426F8F4170022AE75 /* ProjectTests.swift */; };
+		7181567726F8F75D0022AE75 /* AwardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181567626F8F75D0022AE75 /* AwardTests.swift */; };
 		71BDD00426F0F09E002CD846 /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDD00326F0F09E002CD846 /* UltimatePortfolioApp.swift */; };
 		71BDD00626F0F09E002CD846 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDD00526F0F09E002CD846 /* ContentView.swift */; };
 		71BDD00826F0F0A0002CD846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BDD00726F0F0A0002CD846 /* Assets.xcassets */; };
@@ -83,6 +85,8 @@
 		7181566A26F8EE730022AE75 /* UltimatePortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioTests.swift; sourceTree = "<group>"; };
 		7181566C26F8EE730022AE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7181567226F8F0B50022AE75 /* AssetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AssetTests.swift; path = UltimatePortfolio/AssetTests.swift; sourceTree = SOURCE_ROOT; };
+		7181567426F8F4170022AE75 /* ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
+		7181567626F8F75D0022AE75 /* AwardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardTests.swift; sourceTree = "<group>"; };
 		71BDD00026F0F09E002CD846 /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BDD00326F0F09E002CD846 /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		71BDD00526F0F09E002CD846 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -200,6 +204,8 @@
 			children = (
 				7181566A26F8EE730022AE75 /* UltimatePortfolioTests.swift */,
 				7181567226F8F0B50022AE75 /* AssetTests.swift */,
+				7181567426F8F4170022AE75 /* ProjectTests.swift */,
+				7181567626F8F75D0022AE75 /* AwardTests.swift */,
 				7181566C26F8EE730022AE75 /* Info.plist */,
 			);
 			path = UltimatePortfolioTests;
@@ -377,7 +383,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7181567326F8F0B50022AE75 /* AssetTests.swift in Sources */,
+				7181567726F8F75D0022AE75 /* AwardTests.swift in Sources */,
 				7181566B26F8EE730022AE75 /* UltimatePortfolioTests.swift in Sources */,
+				7181567526F8F4170022AE75 /* ProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
