@@ -11,7 +11,6 @@ struct AwardsView: View {
     static let tag: String? = "Awards"
 
     @EnvironmentObject var dataController: DataController
-
     @State private var selectedAward = Award.example
     @State private var showingAwardDetails = false
 
