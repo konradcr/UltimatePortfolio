@@ -10,6 +10,7 @@
 		7178C3C526F9E7D700E5B493 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178C3C426F9E7D700E5B493 /* ExtensionTests.swift */; };
 		7178C3C826F9EB7C00E5B493 /* DecodableDictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 7178C3C726F9EB7C00E5B493 /* DecodableDictionary.json */; };
 		7178C3CA26F9EBCB00E5B493 /* DecodableString.json in Resources */ = {isa = PBXBuildFile; fileRef = 7178C3C926F9EBCB00E5B493 /* DecodableString.json */; };
+		7178C3CC26F9F1BB00E5B493 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178C3CB26F9F1BB00E5B493 /* PerformanceTests.swift */; };
 		7181561A26F211F20022AE75 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7181561926F211F20022AE75 /* CloudKit.framework */; };
 		7181561C26F23CCB0022AE75 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181561B26F23CCB0022AE75 /* HomeView.swift */; };
 		7181561E26F23D7C0022AE75 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181561D26F23D7C0022AE75 /* ProjectsView.swift */; };
@@ -59,6 +60,7 @@
 		7178C3C426F9E7D700E5B493 /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
 		7178C3C726F9EB7C00E5B493 /* DecodableDictionary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableDictionary.json; sourceTree = "<group>"; };
 		7178C3C926F9EBCB00E5B493 /* DecodableString.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableString.json; sourceTree = "<group>"; };
+		7178C3CB26F9F1BB00E5B493 /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PerformanceTests.swift; path = Fixtures/PerformanceTests.swift; sourceTree = "<group>"; };
 		7181561726F211CB0022AE75 /* UltimatePortfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UltimatePortfolio.entitlements; sourceTree = "<group>"; };
 		7181561926F211F20022AE75 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		7181561B26F23CCB0022AE75 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 				7181567626F8F75D0022AE75 /* AwardTests.swift */,
 				7181567826F8FF180022AE75 /* DevelopmentTests.swift */,
 				7178C3C426F9E7D700E5B493 /* ExtensionTests.swift */,
+				7178C3CB26F9F1BB00E5B493 /* PerformanceTests.swift */,
 				7181566C26F8EE730022AE75 /* Info.plist */,
 			);
 			path = UltimatePortfolioTests;
@@ -404,6 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7178C3CC26F9F1BB00E5B493 /* PerformanceTests.swift in Sources */,
 				7181567326F8F0B50022AE75 /* AssetTests.swift in Sources */,
 				7181567726F8F75D0022AE75 /* AwardTests.swift in Sources */,
 				7181566B26F8EE730022AE75 /* UltimatePortfolioTests.swift in Sources */,

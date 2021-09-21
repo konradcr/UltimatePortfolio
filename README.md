@@ -18,6 +18,8 @@ This project is made thanks to the UltimatePortfolio course of Paul Hudson. It t
 * Various Xcode tips and tricks
 * SwiftLint
 * Documenting the code
+* Testing
+* Measuring performance 
 ### Part 2 : Integrating with the system
 _Coming soon!_
 ### Part 3 : Going cross-platform
