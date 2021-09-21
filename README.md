@@ -19,7 +19,8 @@ This project is made thanks to the UltimatePortfolio course of Paul Hudson. It t
 * SwiftLint
 * Documenting the code
 * Testing (Unit & UI)
-* Measuring performance 
+* Measuring performance
+* MVVM
 ### Part 2 : Integrating with the system
 _Coming soon!_
 ### Part 3 : Going cross-platform

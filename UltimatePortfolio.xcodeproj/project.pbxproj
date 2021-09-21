@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7110D1EB26FA3B6400E10A5F /* ProjectsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110D1EA26FA3B6400E10A5F /* ProjectsViewModel.swift */; };
+		7110D1ED26FA477700E10A5F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7110D1EC26FA477700E10A5F /* HomeViewModel.swift */; };
 		7178C3C526F9E7D700E5B493 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178C3C426F9E7D700E5B493 /* ExtensionTests.swift */; };
 		7178C3C826F9EB7C00E5B493 /* DecodableDictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 7178C3C726F9EB7C00E5B493 /* DecodableDictionary.json */; };
 		7178C3CA26F9EBCB00E5B493 /* DecodableString.json in Resources */ = {isa = PBXBuildFile; fileRef = 7178C3C926F9EBCB00E5B493 /* DecodableString.json */; };
@@ -67,6 +68,7 @@
 
 /* Begin PBXFileReference section */
 		7110D1EA26FA3B6400E10A5F /* ProjectsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewModel.swift; sourceTree = "<group>"; };
+		7110D1EC26FA477700E10A5F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		7178C3C426F9E7D700E5B493 /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
 		7178C3C726F9EB7C00E5B493 /* DecodableDictionary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableDictionary.json; sourceTree = "<group>"; };
 		7178C3C926F9EBCB00E5B493 /* DecodableString.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableString.json; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				7181561B26F23CCB0022AE75 /* HomeView.swift */,
+				7110D1EC26FA477700E10A5F /* HomeViewModel.swift */,
 				7181565526F775590022AE75 /* ItemListView.swift */,
 				7181565726F776860022AE75 /* ProjectSummaryView.swift */,
 			);
@@ -494,6 +497,7 @@
 				7181562A26F398840022AE75 /* ProjectHeaderView.swift in Sources */,
 				7181563A26F4EC350022AE75 /* AwardsView.swift in Sources */,
 				71BDD01426F0F230002CD846 /* Main.xcdatamodeld in Sources */,
+				7110D1ED26FA477700E10A5F /* HomeViewModel.swift in Sources */,
 				7181562226F257EA0022AE75 /* Project-CoreDataHelpers.swift in Sources */,
 				7181563C26F4F5690022AE75 /* Color-Additions.swift in Sources */,
 				7181562E26F39DCC0022AE75 /* EditProjectView.swift in Sources */,
