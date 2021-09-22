@@ -24,6 +24,7 @@ This project is made thanks to the UltimatePortfolio course of Paul Hudson. It t
 ### Part 2 : Integrating with the system
 * Haptics
 * Integrating with Spotlight
+* Local notifications
 * ...
 ### Part 3 : Going cross-platform
 _Coming soon!_
