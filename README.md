@@ -22,7 +22,8 @@ This project is made thanks to the UltimatePortfolio course of Paul Hudson. It t
 * Measuring performance
 * MVVM
 ### Part 2 : Integrating with the system
-_Coming soon!_
+* Haptics
+* ...
 ### Part 3 : Going cross-platform
 _Coming soon!_
 
