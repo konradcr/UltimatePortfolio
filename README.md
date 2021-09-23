@@ -25,6 +25,7 @@ This project is made thanks to the UltimatePortfolio course of Paul Hudson. It t
 * Haptics
 * Integrating with Spotlight
 * Local notifications
+* StoreKit (In-app purchasing)
 * ...
 ### Part 3 : Going cross-platform
 _Coming soon!_
