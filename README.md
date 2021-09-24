@@ -27,6 +27,7 @@ This project is made thanks to the UltimatePortfolio course of Paul Hudson. It t
 * Local notifications
 * StoreKit (In-app purchasing)
 * Quick Action (SwiftUI/UIKit bridge)
+* Shortcuts integration
 * ...
 ### Part 3 : Going cross-platform
 _Coming soon!_
