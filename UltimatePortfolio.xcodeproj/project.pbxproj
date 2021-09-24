@@ -66,6 +66,13 @@
 		71BDD00B26F0F0A0002CD846 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BDD00A26F0F0A0002CD846 /* Preview Assets.xcassets */; };
 		71BDD01426F0F230002CD846 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71BDD01226F0F230002CD846 /* Main.xcdatamodeld */; };
 		71BDD01626F0F9A2002CD846 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDD01526F0F9A2002CD846 /* DataController.swift */; };
+		71CDC18526FE39FE002D445F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7181564626F655B50022AE75 /* Localizable.strings */; };
+		71CDC18626FE3B99002D445F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7181562B26F39C350022AE75 /* Colors.xcassets */; };
+		71CDC18726FE3BA0002D445F /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181562126F257EA0022AE75 /* Project-CoreDataHelpers.swift */; };
+		71CDC18826FE3BB2002D445F /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181562F26F4BFF00022AE75 /* Sequence-Sorting.swift */; };
+		71CDC18A26FE4223002D445F /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC18926FE4223002D445F /* DataProvider.swift */; };
+		71CDC18C26FE4277002D445F /* SimpleWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC18B26FE4277002D445F /* SimpleWidget.swift */; };
+		71CDC18E26FE42C5002D445F /* ComplexWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC18D26FE42C5002D445F /* ComplexWidget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,6 +185,9 @@
 		71BDD00C26F0F0A0002CD846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71BDD01326F0F230002CD846 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		71BDD01526F0F9A2002CD846 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		71CDC18926FE4223002D445F /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		71CDC18B26FE4277002D445F /* SimpleWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWidget.swift; sourceTree = "<group>"; };
+		71CDC18D26FE42C5002D445F /* ComplexWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexWidget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -343,6 +353,9 @@
 			isa = PBXGroup;
 			children = (
 				719CDFFB26FE07CB002B0DA7 /* PortfolioWidget.swift */,
+				71CDC18926FE4223002D445F /* DataProvider.swift */,
+				71CDC18B26FE4277002D445F /* SimpleWidget.swift */,
+				71CDC18D26FE42C5002D445F /* ComplexWidget.swift */,
 				719CDFFD26FE07CE002B0DA7 /* Assets.xcassets */,
 				719CDFFF26FE07CE002B0DA7 /* Info.plist */,
 			);
@@ -559,7 +572,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71CDC18626FE3B99002D445F /* Colors.xcassets in Resources */,
 				719CDFFE26FE07CE002B0DA7 /* Assets.xcassets in Resources */,
+				71CDC18526FE39FE002D445F /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,7 +644,12 @@
 				719CE00726FE08B4002B0DA7 /* Main.xcdatamodeld in Sources */,
 				719CE00926FE08D2002B0DA7 /* DataController.swift in Sources */,
 				719CDFFC26FE07CB002B0DA7 /* PortfolioWidget.swift in Sources */,
+				71CDC18C26FE4277002D445F /* SimpleWidget.swift in Sources */,
+				71CDC18E26FE42C5002D445F /* ComplexWidget.swift in Sources */,
+				71CDC18A26FE4223002D445F /* DataProvider.swift in Sources */,
+				71CDC18826FE3BB2002D445F /* Sequence-Sorting.swift in Sources */,
 				719CE00826FE08C4002B0DA7 /* Item-CoreDataHelpers.swift in Sources */,
+				71CDC18726FE3BA0002D445F /* Project-CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
