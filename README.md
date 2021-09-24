@@ -29,6 +29,7 @@ This project is made thanks to the UltimatePortfolio course of Paul Hudson. It t
 * Quick Action (SwiftUI/UIKit bridge)
 * Shortcuts integration
 * Widgets
+* Sync data across iCloud-connected devices
 * ...
 ### Part 3 : Going cross-platform
 _Coming soon!_
