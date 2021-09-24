@@ -7,7 +7,6 @@
 
 import CoreData
 import CoreSpotlight
-import StoreKit
 import SwiftUI
 import UserNotifications
 
@@ -266,14 +265,17 @@ class DataController: ObservableObject {
         }
     }
 
-    func appLaunched() {
-        guard count(for: Project.fetchRequest()) >= 5 else { return }
+    @discardableResult func addProject() -> Bool {
+        let canCreate = fullVersionUnlocked || count(for: Project.fetchRequest()) < 3
 
-        let allScenes = UIApplication.shared.connectedScenes
-        let scene = allScenes.first { $0.activationState == .foregroundActive }
-
-        if let windowScene = scene as? UIWindowScene {
-            SKStoreReviewController.requestReview(in: windowScene)
+        if canCreate {
+            let project = Project(context: container.viewContext)
+            project.closed = false
+            project.creationDate = Date()
+            save()
+            return true
+        } else {
+            return false
         }
     }
 }

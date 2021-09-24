@@ -43,10 +43,13 @@
 		7181567526F8F4170022AE75 /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181567426F8F4170022AE75 /* ProjectTests.swift */; };
 		7181567726F8F75D0022AE75 /* AwardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181567626F8F75D0022AE75 /* AwardTests.swift */; };
 		7181567926F8FF180022AE75 /* DevelopmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181567826F8FF180022AE75 /* DevelopmentTests.swift */; };
+		719CDFEE26FDFBED002B0DA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719CDFED26FDFBED002B0DA7 /* AppDelegate.swift */; };
+		719CDFF026FDFC01002B0DA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719CDFEF26FDFC01002B0DA7 /* SceneDelegate.swift */; };
 		71B0AD6226FCF64B0079E714 /* SKProduct-LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B0AD6126FCF64B0079E714 /* SKProduct-LocalizedPrice.swift */; };
 		71B0AD6426FCF8DD0079E714 /* PurchaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B0AD6326FCF8DD0079E714 /* PurchaseButton.swift */; };
 		71B0AD6826FCF9E10079E714 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B0AD6726FCF9E10079E714 /* ProductView.swift */; };
 		71B0AD6A26FCFB720079E714 /* UnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B0AD6926FCFB720079E714 /* UnlockView.swift */; };
+		71B0AD6D26FD10220079E714 /* DataController-StoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B0AD6C26FD10220079E714 /* DataController-StoreKit.swift */; };
 		71BDD00426F0F09E002CD846 /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDD00326F0F09E002CD846 /* UltimatePortfolioApp.swift */; };
 		71BDD00626F0F09E002CD846 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDD00526F0F09E002CD846 /* ContentView.swift */; };
 		71BDD00826F0F0A0002CD846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BDD00726F0F0A0002CD846 /* Assets.xcassets */; };
@@ -120,10 +123,13 @@
 		7181567426F8F4170022AE75 /* ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
 		7181567626F8F75D0022AE75 /* AwardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardTests.swift; sourceTree = "<group>"; };
 		7181567826F8FF180022AE75 /* DevelopmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopmentTests.swift; sourceTree = "<group>"; };
+		719CDFED26FDFBED002B0DA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Configuration/AppDelegate.swift; sourceTree = "<group>"; };
+		719CDFEF26FDFC01002B0DA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		71B0AD6126FCF64B0079E714 /* SKProduct-LocalizedPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKProduct-LocalizedPrice.swift"; sourceTree = "<group>"; };
 		71B0AD6326FCF8DD0079E714 /* PurchaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseButton.swift; sourceTree = "<group>"; };
 		71B0AD6726FCF9E10079E714 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		71B0AD6926FCFB720079E714 /* UnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockView.swift; sourceTree = "<group>"; };
+		71B0AD6C26FD10220079E714 /* DataController-StoreKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataController-StoreKit.swift"; sourceTree = "<group>"; };
 		71BDD00026F0F09E002CD846 /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BDD00326F0F09E002CD846 /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		71BDD00526F0F09E002CD846 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -322,7 +328,10 @@
 				7181565B26F8C9010022AE75 /* Localization */,
 				7181565A26F8C8F50022AE75 /* Configuration */,
 				71BDD00326F0F09E002CD846 /* UltimatePortfolioApp.swift */,
+				719CDFED26FDFBED002B0DA7 /* AppDelegate.swift */,
+				719CDFEF26FDFC01002B0DA7 /* SceneDelegate.swift */,
 				71BDD01526F0F9A2002CD846 /* DataController.swift */,
+				71B0AD6C26FD10220079E714 /* DataController-StoreKit.swift */,
 				71BDD00526F0F09E002CD846 /* ContentView.swift */,
 				71BDD00726F0F0A0002CD846 /* Assets.xcassets */,
 				7181562B26F39C350022AE75 /* Colors.xcassets */,
@@ -542,8 +551,11 @@
 				7181563026F4BFF00022AE75 /* Sequence-Sorting.swift in Sources */,
 				7181563426F4E8910022AE75 /* Bundle-Decodable.swift in Sources */,
 				7181565626F775590022AE75 /* ItemListView.swift in Sources */,
+				719CDFEE26FDFBED002B0DA7 /* AppDelegate.swift in Sources */,
+				719CDFF026FDFC01002B0DA7 /* SceneDelegate.swift in Sources */,
 				7181561C26F23CCB0022AE75 /* HomeView.swift in Sources */,
 				71BDD00426F0F09E002CD846 /* UltimatePortfolioApp.swift in Sources */,
+				71B0AD6D26FD10220079E714 /* DataController-StoreKit.swift in Sources */,
 				7110D1EF26FA4BFE00E10A5F /* ItemRowViewModel.swift in Sources */,
 				7181562026F257280022AE75 /* Item-CoreDataHelpers.swift in Sources */,
 				71B0AD6226FCF64B0079E714 /* SKProduct-LocalizedPrice.swift in Sources */,

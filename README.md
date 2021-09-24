@@ -26,6 +26,7 @@ This project is made thanks to the UltimatePortfolio course of Paul Hudson. It t
 * Integrating with Spotlight
 * Local notifications
 * StoreKit (In-app purchasing)
+* Quick Action (SwiftUI/UIKit bridge)
 * ...
 ### Part 3 : Going cross-platform
 _Coming soon!_
