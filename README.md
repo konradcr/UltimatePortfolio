@@ -30,6 +30,7 @@ This project is made thanks to the UltimatePortfolio course of Paul Hudson. It t
 * Shortcuts integration
 * Widgets
 * Sync data across iCloud-connected devices
+* Storing data in iCloud
 * ...
 ### Part 3 : Going cross-platform
 _Coming soon!_
