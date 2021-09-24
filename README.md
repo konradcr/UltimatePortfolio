@@ -28,6 +28,7 @@ This project is made thanks to the UltimatePortfolio course of Paul Hudson. It t
 * StoreKit (In-app purchasing)
 * Quick Action (SwiftUI/UIKit bridge)
 * Shortcuts integration
+* Widgets
 * ...
 ### Part 3 : Going cross-platform
 _Coming soon!_
