@@ -32,6 +32,7 @@ This project is made thanks to the UltimatePortfolio course of Paul Hudson. It t
 * Sync data across iCloud-connected devices
 * Storing data in iCloud
 * Querying data from iCloud
+* Sign in with Apple
 * ...
 ### Part 3 : Going cross-platform
 _Coming soon!_

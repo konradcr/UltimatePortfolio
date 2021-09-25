@@ -78,6 +78,7 @@
 		71CDC19426FF1B9E002D445F /* LoadStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC19326FF1B9E002D445F /* LoadStates.swift */; };
 		71CDC19726FF1C3B002D445F /* SharedProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC19626FF1C3B002D445F /* SharedProjectsView.swift */; };
 		71CDC19926FF2204002D445F /* SharedItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC19826FF2204002D445F /* SharedItemsView.swift */; };
+		71CDC19B26FF2625002D445F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC19A26FF2625002D445F /* SignInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -198,6 +199,7 @@
 		71CDC19326FF1B9E002D445F /* LoadStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadStates.swift; sourceTree = "<group>"; };
 		71CDC19626FF1C3B002D445F /* SharedProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedProjectsView.swift; sourceTree = "<group>"; };
 		71CDC19826FF2204002D445F /* SharedItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedItemsView.swift; sourceTree = "<group>"; };
+		71CDC19A26FF2625002D445F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -446,6 +448,7 @@
 				71CDC19326FF1B9E002D445F /* LoadStates.swift */,
 				71CDC19626FF1C3B002D445F /* SharedProjectsView.swift */,
 				71CDC19826FF2204002D445F /* SharedItemsView.swift */,
+				71CDC19A26FF2625002D445F /* SignInView.swift */,
 			);
 			path = Community;
 			sourceTree = "<group>";
@@ -694,6 +697,7 @@
 				71656C7A26FCE53400CE07A0 /* UnlockManager.swift in Sources */,
 				7181562226F257EA0022AE75 /* Project-CoreDataHelpers.swift in Sources */,
 				7181563C26F4F5690022AE75 /* Color-Additions.swift in Sources */,
+				71CDC19B26FF2625002D445F /* SignInView.swift in Sources */,
 				7181562E26F39DCC0022AE75 /* EditProjectView.swift in Sources */,
 				71BDD01626F0F9A2002CD846 /* DataController.swift in Sources */,
 				7181563226F4E2170022AE75 /* SelectSomethingView.swift in Sources */,
