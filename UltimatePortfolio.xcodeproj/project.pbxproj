@@ -73,6 +73,11 @@
 		71CDC18A26FE4223002D445F /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC18926FE4223002D445F /* DataProvider.swift */; };
 		71CDC18C26FE4277002D445F /* SimpleWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC18B26FE4277002D445F /* SimpleWidget.swift */; };
 		71CDC18E26FE42C5002D445F /* ComplexWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC18D26FE42C5002D445F /* ComplexWidget.swift */; };
+		71CDC19026FF1A9E002D445F /* SharedProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC18F26FF1A9E002D445F /* SharedProject.swift */; };
+		71CDC19226FF1AD6002D445F /* SharedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC19126FF1AD6002D445F /* SharedItem.swift */; };
+		71CDC19426FF1B9E002D445F /* LoadStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC19326FF1B9E002D445F /* LoadStates.swift */; };
+		71CDC19726FF1C3B002D445F /* SharedProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC19626FF1C3B002D445F /* SharedProjectsView.swift */; };
+		71CDC19926FF2204002D445F /* SharedItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC19826FF2204002D445F /* SharedItemsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -188,6 +193,11 @@
 		71CDC18926FE4223002D445F /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		71CDC18B26FE4277002D445F /* SimpleWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWidget.swift; sourceTree = "<group>"; };
 		71CDC18D26FE42C5002D445F /* ComplexWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexWidget.swift; sourceTree = "<group>"; };
+		71CDC18F26FF1A9E002D445F /* SharedProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedProject.swift; sourceTree = "<group>"; };
+		71CDC19126FF1AD6002D445F /* SharedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedItem.swift; sourceTree = "<group>"; };
+		71CDC19326FF1B9E002D445F /* LoadStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadStates.swift; sourceTree = "<group>"; };
+		71CDC19626FF1C3B002D445F /* SharedProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedProjectsView.swift; sourceTree = "<group>"; };
+		71CDC19826FF2204002D445F /* SharedItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedItemsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +303,7 @@
 				7181566226F8CB4F0022AE75 /* Projects */,
 				7181566326F8CB570022AE75 /* Awards */,
 				71B0AD6B26FD01B80079E714 /* Unlock */,
+				71CDC19526FF1BD4002D445F /* Community */,
 			);
 			path = Activities;
 			sourceTree = "<group>";
@@ -425,6 +436,18 @@
 				71BDD00A26F0F0A0002CD846 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71CDC19526FF1BD4002D445F /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				71CDC18F26FF1A9E002D445F /* SharedProject.swift */,
+				71CDC19126FF1AD6002D445F /* SharedItem.swift */,
+				71CDC19326FF1B9E002D445F /* LoadStates.swift */,
+				71CDC19626FF1C3B002D445F /* SharedProjectsView.swift */,
+				71CDC19826FF2204002D445F /* SharedItemsView.swift */,
+			);
+			path = Community;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -662,8 +685,11 @@
 				71B0AD6426FCF8DD0079E714 /* PurchaseButton.swift in Sources */,
 				7181562A26F398840022AE75 /* ProjectHeaderView.swift in Sources */,
 				71B0AD6826FCF9E10079E714 /* ProductView.swift in Sources */,
+				71CDC19226FF1AD6002D445F /* SharedItem.swift in Sources */,
 				7181563A26F4EC350022AE75 /* AwardsView.swift in Sources */,
 				71BDD01426F0F230002CD846 /* Main.xcdatamodeld in Sources */,
+				71CDC19426FF1B9E002D445F /* LoadStates.swift in Sources */,
+				71CDC19726FF1C3B002D445F /* SharedProjectsView.swift in Sources */,
 				7110D1ED26FA477700E10A5F /* HomeViewModel.swift in Sources */,
 				71656C7A26FCE53400CE07A0 /* UnlockManager.swift in Sources */,
 				7181562226F257EA0022AE75 /* Project-CoreDataHelpers.swift in Sources */,
@@ -672,7 +698,9 @@
 				71BDD01626F0F9A2002CD846 /* DataController.swift in Sources */,
 				7181563226F4E2170022AE75 /* SelectSomethingView.swift in Sources */,
 				7181563826F4EB750022AE75 /* Award.swift in Sources */,
+				71CDC19026FF1A9E002D445F /* SharedProject.swift in Sources */,
 				7181562626F36F250022AE75 /* ItemRowView.swift in Sources */,
+				71CDC19926FF2204002D445F /* SharedItemsView.swift in Sources */,
 				71B0AD6A26FCFB720079E714 /* UnlockView.swift in Sources */,
 				71BDD00626F0F09E002CD846 /* ContentView.swift in Sources */,
 				7181562826F391B80022AE75 /* Binding-OnChange.swift in Sources */,

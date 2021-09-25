@@ -36,11 +36,19 @@ struct ContentView: View {
                     Image(systemName: "checkmark")
                     Text("Closed")
                 }
+
             AwardsView()
                 .tag(AwardsView.tag)
                 .tabItem {
                     Image(systemName: "rosette")
                     Text("Awards")
+                }
+
+            SharedProjectsView()
+                .tag(SharedProjectsView.tag)
+                .tabItem {
+                    Image(systemName: "person.3")
+                    Text("Community")
                 }
         }
         .onContinueUserActivity(CSSearchableItemActionType, perform: moveToHome)

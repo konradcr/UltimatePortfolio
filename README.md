@@ -31,6 +31,7 @@ This project is made thanks to the UltimatePortfolio course of Paul Hudson. It t
 * Widgets
 * Sync data across iCloud-connected devices
 * Storing data in iCloud
+* Querying data from iCloud
 * ...
 ### Part 3 : Going cross-platform
 _Coming soon!_
