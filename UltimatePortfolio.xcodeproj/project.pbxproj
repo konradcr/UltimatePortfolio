@@ -79,6 +79,7 @@
 		71CDC19726FF1C3B002D445F /* SharedProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC19626FF1C3B002D445F /* SharedProjectsView.swift */; };
 		71CDC19926FF2204002D445F /* SharedItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC19826FF2204002D445F /* SharedItemsView.swift */; };
 		71CDC19B26FF2625002D445F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC19A26FF2625002D445F /* SignInView.swift */; };
+		71CDC19D26FF2EAD002D445F /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC19C26FF2EAD002D445F /* ChatMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -200,6 +201,7 @@
 		71CDC19626FF1C3B002D445F /* SharedProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedProjectsView.swift; sourceTree = "<group>"; };
 		71CDC19826FF2204002D445F /* SharedItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedItemsView.swift; sourceTree = "<group>"; };
 		71CDC19A26FF2625002D445F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		71CDC19C26FF2EAD002D445F /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -449,6 +451,7 @@
 				71CDC19626FF1C3B002D445F /* SharedProjectsView.swift */,
 				71CDC19826FF2204002D445F /* SharedItemsView.swift */,
 				71CDC19A26FF2625002D445F /* SignInView.swift */,
+				71CDC19C26FF2EAD002D445F /* ChatMessage.swift */,
 			);
 			path = Community;
 			sourceTree = "<group>";
@@ -722,6 +725,7 @@
 				71B0AD6226FCF64B0079E714 /* SKProduct-LocalizedPrice.swift in Sources */,
 				719CE00D26FE09A4002B0DA7 /* DataController-Reminders.swift in Sources */,
 				7110D1EB26FA3B6400E10A5F /* ProjectsViewModel.swift in Sources */,
+				71CDC19D26FF2EAD002D445F /* ChatMessage.swift in Sources */,
 				7181562426F36AB90022AE75 /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
