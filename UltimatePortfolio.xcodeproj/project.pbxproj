@@ -80,6 +80,8 @@
 		71CDC19926FF2204002D445F /* SharedItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC19826FF2204002D445F /* SharedItemsView.swift */; };
 		71CDC19B26FF2625002D445F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC19A26FF2625002D445F /* SignInView.swift */; };
 		71CDC19D26FF2EAD002D445F /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC19C26FF2EAD002D445F /* ChatMessage.swift */; };
+		71CDC19F26FF3AF0002D445F /* Error-CloudKitMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC19E26FF3AF0002D445F /* Error-CloudKitMessage.swift */; };
+		71CDC1A126FF3E02002D445F /* CloudError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDC1A026FF3E02002D445F /* CloudError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -202,6 +204,8 @@
 		71CDC19826FF2204002D445F /* SharedItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedItemsView.swift; sourceTree = "<group>"; };
 		71CDC19A26FF2625002D445F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		71CDC19C26FF2EAD002D445F /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		71CDC19E26FF3AF0002D445F /* Error-CloudKitMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error-CloudKitMessage.swift"; sourceTree = "<group>"; };
+		71CDC1A026FF3E02002D445F /* CloudError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,11 +293,12 @@
 		7181565C26F8C90C0022AE75 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				7181561F26F257280022AE75 /* Item-CoreDataHelpers.swift */,
-				7181562126F257EA0022AE75 /* Project-CoreDataHelpers.swift */,
 				7181562726F391B80022AE75 /* Binding-OnChange.swift */,
 				7181563326F4E8910022AE75 /* Bundle-Decodable.swift */,
 				7181563B26F4F5690022AE75 /* Color-Additions.swift */,
+				71CDC19E26FF3AF0002D445F /* Error-CloudKitMessage.swift */,
+				7181561F26F257280022AE75 /* Item-CoreDataHelpers.swift */,
+				7181562126F257EA0022AE75 /* Project-CoreDataHelpers.swift */,
 				7181562F26F4BFF00022AE75 /* Sequence-Sorting.swift */,
 				71B0AD6126FCF64B0079E714 /* SKProduct-LocalizedPrice.swift */,
 			);
@@ -308,6 +313,7 @@
 				7181566326F8CB570022AE75 /* Awards */,
 				71B0AD6B26FD01B80079E714 /* Unlock */,
 				71CDC19526FF1BD4002D445F /* Community */,
+				71CDC1A026FF3E02002D445F /* CloudError.swift */,
 			);
 			path = Activities;
 			sourceTree = "<group>";
@@ -326,14 +332,14 @@
 		7181566226F8CB4F0022AE75 /* Projects */ = {
 			isa = PBXGroup;
 			children = (
+				7181562326F36AB90022AE75 /* EditItemView.swift */,
+				7181562D26F39DCC0022AE75 /* EditProjectView.swift */,
+				7181562526F36F250022AE75 /* ItemRowView.swift */,
+				7110D1EE26FA4BFE00E10A5F /* ItemRowViewModel.swift */,
+				7181562926F398840022AE75 /* ProjectHeaderView.swift */,
 				7181561D26F23D7C0022AE75 /* ProjectsView.swift */,
 				7110D1EA26FA3B6400E10A5F /* ProjectsViewModel.swift */,
 				7181563126F4E2170022AE75 /* SelectSomethingView.swift */,
-				7181562926F398840022AE75 /* ProjectHeaderView.swift */,
-				7181562526F36F250022AE75 /* ItemRowView.swift */,
-				7110D1EE26FA4BFE00E10A5F /* ItemRowViewModel.swift */,
-				7181562D26F39DCC0022AE75 /* EditProjectView.swift */,
-				7181562326F36AB90022AE75 /* EditItemView.swift */,
 			);
 			path = Projects;
 			sourceTree = "<group>";
@@ -445,13 +451,13 @@
 		71CDC19526FF1BD4002D445F /* Community */ = {
 			isa = PBXGroup;
 			children = (
-				71CDC18F26FF1A9E002D445F /* SharedProject.swift */,
-				71CDC19126FF1AD6002D445F /* SharedItem.swift */,
-				71CDC19326FF1B9E002D445F /* LoadStates.swift */,
-				71CDC19626FF1C3B002D445F /* SharedProjectsView.swift */,
-				71CDC19826FF2204002D445F /* SharedItemsView.swift */,
-				71CDC19A26FF2625002D445F /* SignInView.swift */,
 				71CDC19C26FF2EAD002D445F /* ChatMessage.swift */,
+				71CDC19326FF1B9E002D445F /* LoadStates.swift */,
+				71CDC19126FF1AD6002D445F /* SharedItem.swift */,
+				71CDC19826FF2204002D445F /* SharedItemsView.swift */,
+				71CDC18F26FF1A9E002D445F /* SharedProject.swift */,
+				71CDC19626FF1C3B002D445F /* SharedProjectsView.swift */,
+				71CDC19A26FF2625002D445F /* SignInView.swift */,
 			);
 			path = Community;
 			sourceTree = "<group>";
@@ -705,6 +711,7 @@
 				71BDD01626F0F9A2002CD846 /* DataController.swift in Sources */,
 				7181563226F4E2170022AE75 /* SelectSomethingView.swift in Sources */,
 				7181563826F4EB750022AE75 /* Award.swift in Sources */,
+				71CDC1A126FF3E02002D445F /* CloudError.swift in Sources */,
 				71CDC19026FF1A9E002D445F /* SharedProject.swift in Sources */,
 				7181562626F36F250022AE75 /* ItemRowView.swift in Sources */,
 				71CDC19926FF2204002D445F /* SharedItemsView.swift in Sources */,
@@ -721,6 +728,7 @@
 				71BDD00426F0F09E002CD846 /* UltimatePortfolioApp.swift in Sources */,
 				71B0AD6D26FD10220079E714 /* DataController-StoreKit.swift in Sources */,
 				7110D1EF26FA4BFE00E10A5F /* ItemRowViewModel.swift in Sources */,
+				71CDC19F26FF3AF0002D445F /* Error-CloudKitMessage.swift in Sources */,
 				7181562026F257280022AE75 /* Item-CoreDataHelpers.swift in Sources */,
 				71B0AD6226FCF64B0079E714 /* SKProduct-LocalizedPrice.swift in Sources */,
 				719CE00D26FE09A4002B0DA7 /* DataController-Reminders.swift in Sources */,
