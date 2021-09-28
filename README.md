@@ -1,8 +1,8 @@
 # UltimatePortfolio
 
-![Built in Swift 5.3](https://img.shields.io/badge/swift-5.3-informational)
-![Built for iOS 14.0](https://img.shields.io/badge/iOS-14.0-informational)
-![Requires Xcode 12.5](https://img.shields.io/badge/Xcode-12.5-informational)
+![Built in Swift 5.3](https://img.shields.io/badge/Swift-5.3-orange)
+![Built for iOS 14.0](https://img.shields.io/badge/iOS-14.0-lightgray)
+![Requires Xcode 12.5](https://img.shields.io/badge/Xcode-12.5-blue)
 
 
 This project is made thanks to the UltimatePortfolio course of Paul Hudson. It teaches me how to build one app that covers *all* the core techniques of app building. This means we're covering a huge range of SwiftUI, including architecture, accessibility, and localization. We're covering good project hygiene, such as testing, documentation, and structure. And we're covering core system technologies, such as networking, Core Data, and iCloud, while also working across iOS, macOS, tvOS, and even watchOS.
